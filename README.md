@@ -1,4 +1,4 @@
-# My Google Summer of Code 2021 Application for Dask.
+# My GSoC Application for Dask.
 
 # Application Template
 
