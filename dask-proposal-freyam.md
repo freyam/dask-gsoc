@@ -201,7 +201,8 @@ I have been using GitHub for maintaining all my projects for over a year now. I 
 This is not the first time I have been part of an Open Source Community. I was intrigued by the concept for a long time and started from my school days. Open Source contributions have made me realize the importance of a well documented and easy-to-understand code. I have participated in 2 editions of Google Code-in (precursor to GSOC) in 2018 and 2019 and have contributed documentation and designs to well known organizations like [OpenMRS](https://openmrs.org/), [LibreHealth](https://librehealth.io/), [RTEMS](https://www.rtems.org/) and [CCExtractor](https://www.ccextractor.org/). I have also taken part in the Hacktoberfest 2021 and am an active member of the OSDG@IIIT-H club, and have conducted Open Source Workshops in my college.
 
 <br />
-<br />
+
+## Why I want to get selected?
 
 This will be my first time contributing to a robust and complex codebase like yours. Although it is my first time with Dask, the things I have picked up in the last two weeks have been unimaginable for me. I have learned about Parallel workloads using Dask, lazy computing, Sphinx documentation, multiple data visualization libraries (`cytoscape`, `d3-graphviz`, `ipyelk`, and more) and what not! I am thrilled to take this learning journey even further by working on the project.
 
