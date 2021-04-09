@@ -12,7 +12,7 @@
 
 - [x] Your full name
 - [x] University / current enrollment
-- [ ] Short bio / overview of your background
+- [x] Short bio / overview of your background
 - [x] How can we contact you?
   - [x] Email
   - [x] GitHub username
@@ -20,9 +20,9 @@
 
 ### Me the programmer
 
-- [ ] In your project proposal let us know about your programming experience.
-- [ ] What is your experience programming? Tell us about something you have created.
-- [ ] What is your experience with Python?
+- [x] In your project proposal let us know about your programming experience.
+- [x] What is your experience programming? Tell us about something you have created.
+- [x] What is your experience with Python?
 - [x] Have you ever used git or another version control system? Do you have experience using GitHub?
 - [x] What is your experience with Open Source? Have you ever contributed to another open source project?
 
@@ -39,7 +39,7 @@
 
 - [x] Have you communicated with the organization's mentors?
 - [x] Have you communicated with the community?
-- [ ] Did you reference projects you coded WITH links to repos or provided code?
+- [x] Did you reference projects you coded WITH links to repos or provided code?
 - [x] Did you provide several methods to contact you? (email, skype, mobile/phone, twitter, chat, and/or tumblr if available)
 - [x] Did you include a preliminary project plan (before, during, after GSoC)?
 - [x] Did you state which project you are applying for and why you think you will end up completing the project?
