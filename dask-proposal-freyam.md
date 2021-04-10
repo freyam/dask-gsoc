@@ -2,13 +2,13 @@
 
 ## Basic Information
 
-- Name: Freyam Mehta
-- Major: Computer Science And Engineering
-- University: International Institute of Information Technology Hyderabad, India
-- Email: [freyam.mehta@students.iiit.ac.in](mailto:freyam.mehta@students.iiit.ac.in)
-- Github and Gitter: [@freyam](https://github.com/freyam)
-- Slack: [Freyam Mehta](https://app.slack.com/client/T019Q6SMM5Z/D01SD1Q06KT/user_profile/U01S6HV6TE0)
-- Timezone: Gulf Standard Time (UTC +4:00)
+- **Name**: Freyam Mehta
+- **Major**: Computer Science And Engineering
+- **University**: International Institute of Information Technology Hyderabad, India
+- **Email**: [freyam.mehta@students.iiit.ac.in](mailto:freyam.mehta@students.iiit.ac.in)
+- **Github and Gitter**: [@freyam](https://github.com/freyam)
+- **Slack**: [Freyam Mehta](https://app.slack.com/client/T019Q6SMM5Z/D01SD1Q06KT/user_profile/U01S6HV6TE0)
+- **Timezone**: Gulf Standard Time (UTC +4:00)
 
 <br />
 
@@ -76,11 +76,9 @@ You can always find me active on Slack/Email/Github/Gitter between 7:00 AM (3:00
 
 -
 -
--
 
 ### Week 2
 
--
 -
 -
 
@@ -88,11 +86,9 @@ You can always find me active on Slack/Email/Github/Gitter between 7:00 AM (3:00
 
 -
 -
--
 
 ### Week 4
 
--
 -
 -
 
@@ -100,11 +96,9 @@ You can always find me active on Slack/Email/Github/Gitter between 7:00 AM (3:00
 
 -
 -
--
 
 ### Week 6
 
--
 -
 -
 
@@ -112,11 +106,9 @@ You can always find me active on Slack/Email/Github/Gitter between 7:00 AM (3:00
 
 -
 -
--
 
 ### Week 8
 
--
 -
 -
 
@@ -124,11 +116,9 @@ You can always find me active on Slack/Email/Github/Gitter between 7:00 AM (3:00
 
 -
 -
--
 
 ### Week 10
 
--
 -
 -
 
@@ -156,16 +146,22 @@ I have been contributing solely to Dask for the past two weeks, and with the con
 
 ## Contributions to `dask/dask*`
 
-- **`dask/dask`** [MERGED] PR [#7517](https://github.com/dask/dask/pull/7517) for the Issue [#1259](https://github.com/dask/dask/issues/1259)
+- **`dask/dask` [MERGED] PR [#7517](https://github.com/dask/dask/pull/7517) for the Issue [#1259](https://github.com/dask/dask/issues/1259)**
+
+  - I implemented the `dd.DataFrame.product()` (aliased it to call an already existing method `dd.DataFrame.prod()` which serves the same purpose).
+  - I learned about the various DataFrame methods from Pandas and how they have been implemented in Dask. I am confident that I can work with large Python code in your codebase, and my understanding of the code structure increases as I spend more time going through Dask repositories.
+
+- **`dask/dask-tutorial` [MERGED] PR [#211](https://github.com/dask/dask-tutorial/pull/211) for the Issue [#206](https://github.com/dask/dask-tutorial/issues/206)**
+
+  - I updated the Binder Badge Image to the latest badge. It was a simple Find and Replace job.
+  - I learned about the `dask-tutorial` repository and how it is structured. I also got to know how Documentation works at Dask. I had already completed the Dask Tutorial, and after seeing the Jupyter Notebooks, I am confident that I can contribute to quality documentation.
+
+- **`dask/` [WIP]**
+
   - What I Did:
   - What I Learned:
-- **`dask/dask-tutorial`** [MERGED] PR [#211](https://github.com/dask/dask-tutorial/pull/211) for the Issue [#206 ](https://github.com/dask/dask-tutorial/issues/206)
-  - What I Did:
-  - What I Learned:
-- `dask/` [WIP]
-  - What I Did:
-  - What I Learned:
-- `dask/` [WIP]
+
+- **`dask/` [WIP]**
   - What I Did:
   - What I Learned:
 
@@ -208,6 +204,6 @@ This will be my first time contributing to a robust and complex codebase like yo
 
 I want to mention that I am a curiosity-driven learner. All the programming knowledge I have gained so far results from my endless exploration & self-learning capabilities. I do not hesitate to learn new stuff if it piques my interest.
 
-I must mention that it has been a great learning experience contributing to Dask. One of the reasons I have been active in Dask is the immensely constructive community, and I’ll try to keep myself updated with other developments. More than anything, I find this project super fun to work with. The community was very helpful in getting me started with the development tasks. Special shoutout to Madhumitha Paul ([@Madhu94](https://github.com/Madhu94)) for showing me the right way and being a fantastic friend.
+I must mention that it has been a great learning experience contributing to Dask. One of the reasons I have been active in Dask is the immensely constructive community, and I’ll try to keep myself updated with other developments. More than anything, I find this project super fun to work with. The community was very helpful in getting me started with the development tasks. Special shoutout to Madhumitha Paul ([@Madhu94](https://github.com/Madhu94)) for showing me the right way and being a fantastic friend all along my journey.
 
 This project is inspiring to me because it will give me exposure to Dask's codebase and increase my understanding of the inner workings of Python and, specifically, how great visualization can be so crucial.
