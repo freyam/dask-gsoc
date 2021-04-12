@@ -22,10 +22,10 @@
 
 ### Deliverables
 
-- The code will be off the highest quality standards, having detailed documentation (`Sphinx`), code styling (`black`), and will be thoroughly tested.
-- A detailed, well-documented tutorial will be developed during the summers' implementation of almost every feature of Visualization to help developers as a reference.
-- One blog each week (Around 15) regarding Dask, Python, and my experience, learning through the project on Visualizing Performance Flow.
-- For the community to track progress, I will maintain a tracker with my latest developments containing weekly updates and MoM of mentor meetings. This will help strengthen accountability and transparency from my end.
+- High quality code with detailed documentation (`Sphinx`), thorough testing, and code styling (`black`).
+- A detailed and well-documented tutorial of all features of Visualization will be developed during GSoC to provide developers with reference.
+- Weekly blogs regarding Dask, Python, and my experience, learning through the project on Visualizing Performance Flow.
+- A Tracker with my latest developments containing weekly updates and MoM of the mentor meetings. This will help bolster my accountability and transparency.
 
 <br />
 
@@ -47,30 +47,35 @@ Below is my timeline for the completion of the project. This is meant as more of
 
 Regardless, I will have at least one deliverable at the end of each week to be evaluated.
 
-I do not have any other commitments during the summer. I am lucky that the GSoC timeline works perfectly with my course schedule as well. So, I will not be busy with coursework during the GSoC period, and I can sincerely commit to the timeline I have illustrated below.
-If something comes up, I will inform my mentor a week before and limit my unavailability to not more than two days. I am willing to adjust and re-plan the timings as per mentor/admin availability and any unknown requirements in the future.
+I do not have any other commitments during the summer. I am lucky that the GSoC timeline works perfectly with my course schedule as well, hence, I will not be busy with coursework during the GSoC period, and I can sincerely commit to the timeline I have illustrated below.
+If something comes up, I will inform my mentor a week before and limit my unavailability to no more than two days. I am willing to adjust and re-plan the timings as per mentor/admin availability and any unforeseen requirements in the future.
 
-Each week, time will be divided (according to workload) amongst planning, learning, coding, documenting, and testing features. Except for the developer’s guide, all documentation will go hand in hand with the development. This will help keep a profound grasp of the code implementation and working, minimizing bugs in later stages. Weekends will be primarily dedicated to testing, bug fixing, and blog writing. Fortnightly blogs will be maintained at https://medium.com/@freyam and will include highlights of the development process and methods used to overcome hurdles.
+Each week, time will be divided (according to workload) amongst planning, learning, coding, documenting, and testing features. Except for the developer’s guide, all documentation will go parallely with the development. This will help keep a profound grasp of the code implementation and working, minimize bugs in later stages. Weekends will be primarily dedicated to testing, bug fixing, and blog writing. Weekly blogs will be maintained at https://medium.com/@freyam and will include highlights of the development process and methods used to solve issues encountered.
 
 - Weekdays (Monday to Friday): **5 - 6 hours** (**+ 2 hours**)
 - Weekends (Saturday and Sunday): **4 - 5 hours** (**+ 3 hours**)
-- Cummulative (Monday to Sunday) **33 - 40 hours** (**+ 16 hours**)
+- Cumulative (Monday to Sunday) **33 - 40 hours** (**+ 16 hours**)
 
-You can always find me active on Slack/Email/Github/Gitter between 7:00 AM (3:00 AM UTC) and 11:55 PM (7:55 PM UTC). I will be available for communication at all times decided by my mentor and discuss new ideas and methods throughout the project.
+I will be active on Slack/Email/Github/Gitter between 7:00 AM (3:00 AM UTC) and 11:55 PM (7:55 PM UTC), and be available for communication at all times decided by my mentor and discuss new ideas and methods throughout the project.
 
 ### Pre GSoC (now - May 16th)
 
 - Make more contributions through fixing issues over the Dask ecosystem and adding features to further bolster my understanding of the codebase and the scope of the `visualize()` method.
-- Brush up on all the necessary topics for the libraries to wrap my mind around Dask, Python and JavaScript libraries like `cytoscape`, `d3-graphviz`, and `ipyelk`.
-- Along with that, I’ll carry on my experiments and demos with various technologies being used to gain a deeper understanding of the same.
+- Brush up on all the necessary topics for the libraries to understand Dask, Python and JavaScript libraries like `cytoscape`, `d3-graphviz`, and `ipyelk`.
+- Along with that, I will conduct my experiments and demos with various technologies being used to gain a deeper understanding of the same.
 - Get more familiar with the operational workflow of Dask.
 
 ### Community Bonding (May 17th - June 7th)
 
-- I want to be sure I will be spending time implementing the features I would like to, instead of second-guessing myself later about the design choices I have made.
 - The main focus in this period will be to frame a roadmap for the project with the mentor's guidance (along with improving bonding, which is what the period is for).
-- I will also use this period to study the already present work on `visualize()` and to figure a concrete plan to integrate the new features.
-- I will frame the integration of various parts of the project into one another, and a source code directory layout will be prepared to keep the flow smooth in later stages of the development.
+- I will plan the implementation of features and discuss them with the rest of the Dask community beforehand to minimise bugs and improve structure.
+- I will use this period to study the already present work on `visualize()` and to figure a concrete plan to integrate the new features.
+- I will frame the integration of various parts of the project into one another, and I will prepare a source code directory layout to ensure a smooth flow in the later stages of the development.
+
+<!-- create a new custom mime type for Dask -->
+
+<!-- from Ipython.display import publish_display_data   dictionary Key: custom MIME Type and value: custom Payload-->
+<!-- `visualize2()` -->
 
 ### Week 1
 
@@ -127,20 +132,20 @@ You can always find me active on Slack/Email/Github/Gitter between 7:00 AM (3:00
 ## My Commitment
 
 During and after the project, I will help solve more significant challenges and bugs faced in other Dask projects, wherever the community needs my help. I’m very enthusiastic about taking up issues (outside my GSoC project) as and when time permits.
-I will remain an active contributor to the Dask Ecosystem, taking part in discussions for future projects, implementations, and bugs. There are several miscellaneous non-code tasks that I would like to take up to give back to the community, such as mentoring and representing the same in global conferences. Maybe if the community agrees, also mentor someone else in the foreseeable future.
+I will remain an active contributor to the Dask Ecosystem, taking part in discussions for future projects, implementations, and bugs. There are several miscellaneous non-code tasks that I would like to take up to give back to the community, such as mentoring and representing the same in global conferences.
 
 <br />
 
-## Why I am suited for this project?
+## Why I am suited for this project
 
-I am aptly suited for this project because,
+I am suited for this project because,
 
 - I have the technical skills required to complete this project: Python and JavaScript, with which I am experienced enough to tackle any problems that I might come across.
 - I am willing to learn anything that this project demands, and I believe within time, I can pick up any skill.
-- Being in my freshman year, I will be easily dedicating all of my time to the project. I can easily stick to the timeline I have laid out.
+- Being in my freshman year, I have a lot of time and enthusiasm to dedicate to the project.
 - Being new to the development community, I can bring a unique and fresh perspective to the project and Dask.
 
-I have been contributing solely to Dask for the past two weeks, and with the constant support of mentors, I have engaged long enough with the project that I’m crystal clear about the objectives of this project. After coming up with well-thought ideas and preparing an actionable plan to achieve them, I am confident that I can finish the project within the proposed timeline. I will be thrilled to be a part of Dask this Summer (and even later) to evolve as a developer.
+I have been contributing solely to Dask for the past two weeks, and with the constant support of mentors, I have engaged long enough with the project that I am clear about the objectives of this project. I am confident that after developing well-researched ideas and preparing an actionable plan to achieve them, I can finish the project within the proposed timeline. I would be thrilled to be a part of Dask this Summer (and even later) to evolve as a developer.
 
 <br />
 
@@ -169,9 +174,9 @@ I have been contributing solely to Dask for the past two weeks, and with the con
 
 ## About Me
 
-I am **Freyam Mehta**, a Computer Science fresher at **International Institute of Information Technology, Hyderabad, India**. I have been fascinated by programming since I was 15. I am passionate about finding clean and creative solutions to all kinds of problems through my skills and talent. My current interests include UI/UX Designing, Data Structures and Algorithms, Data Science, Machine Learning Applications and, Open Source Development.
+I am **Freyam Mehta**, a Computer Science fresher at **International Institute of Information Technology, Hyderabad, India**. I have been an ardent programmer since I was 15. I am passionate about finding clean and innovative solutions to various problems through my skills. My current interests include UI/UX Designing, Data Structures and Algorithms, Data Science, Machine Learning Applications and, Open Source Development among others.
 
-I enjoy playing team sports (Cricket, Basketball, and Volleyball), writing, singing, and dancing. I also like spending time contributing back to society. Check out my dream project, [The Climate Synergy](https://www.instagram.com/theclimatesynergy/), to know more.
+I like spending time contributing back to society. I also enjoy playing team sports (Cricket, Basketball, and Volleyball), writing, singing, and dancing.
 
 ### Relevant Programming Experience
 
