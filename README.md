@@ -28,12 +28,12 @@
 
 ### Project Description
 
-- [ ] What do you want to achieve?
-- [ ] What excites you about this project? Why did you choose it?
-- [ ] What qualifications do you have to implement your idea? Why are you suited to work on this project?
-- [ ] How much time do you plan to invest in the project before, during, and after the Summer of Code? (we will expect full time 40h/week during GSoC). If you plan to take any vacations over the summer, let us know about it here.
-- [ ] How will you break your project into smaller tasks? Please provide a schedule of how time will be spent on sub-tasks of the project over the GSoC development period. While we will not hold you to this schedule, this lets us know that you have thought about how to break the project into smaller tasks and will help us monitor your progress throughout the summer.
-- [ ] Please also note in the schedule where could formulate a pull request. These would be points where you can have a self contained, documented, and tested piece of functionality. Doing this at several points during the summer helps to keep code reviews manageable. A big pull request at the end of the summer will likely be hard to review and merge before the project deadline.
+- [x] What do you want to achieve?
+- [x] What excites you about this project? Why did you choose it?
+- [x] What qualifications do you have to implement your idea? Why are you suited to work on this project?
+- [x] How much time do you plan to invest in the project before, during, and after the Summer of Code? (we will expect full time 40h/week during GSoC). If you plan to take any vacations over the summer, let us know about it here.
+- [x] How will you break your project into smaller tasks? Please provide a schedule of how time will be spent on sub-tasks of the project over the GSoC development period. While we will not hold you to this schedule, this lets us know that you have thought about how to break the project into smaller tasks and will help us monitor your progress throughout the summer.
+- [x] Please also note in the schedule where could formulate a pull request. These would be points where you can have a self contained, documented, and tested piece of functionality. Doing this at several points during the summer helps to keep code reviews manageable. A big pull request at the end of the summer will likely be hard to review and merge before the project deadline.
 
 ## NumFOCUS Guidelines ([link](https://github.com/numfocus/gsoc/blob/master/CONTRIBUTING-students.md))
 
