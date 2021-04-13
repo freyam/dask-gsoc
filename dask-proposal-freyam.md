@@ -33,11 +33,14 @@ What I would like to achieve with this project:
 
 1. To help the user make sense of the performance and the scope of optimization, I will highlight the unnecessary tasks (`cull`) using dark colors or reducing its transparency while rendering. The same can be done with the redundant constants (`inline`). Linear tasks flow can be labeled/colored similarly, so it becomes easy to spot room for merging these chains (`fuse`). I will also show a side-by-side comparison of the pre-optimization and the post-optimization to highlight the changes. Also, I will color the I/O tasks differently from the computational tasks by keeping a list of some commonly used task names (such as `read_csv`). This allows the user to learn more about the program's performance characteristics.
 
-<insert image>
+![Feature 1 (Current)](src/f1_current.jpg "Feature 1 (Current)")
+
+![Feature 1 (Improved)](src/f1_improved.jpg "Feature 1 (Improved)")
 
 2. To make visualization of large computations easy and visually appealing, I will introduce collapsible blocks that group giant blocks into smaller blocks, thus simplifying the rendered graph and also makes it easier to work with crucial data containing a large number of nodes. Currently, graphviz struggles with large computations. Simplification of the circuit on top of the pre-existing [`dask.optimization`](https://docs.dask.org/en/latest/optimize.html) would make it more feasible (and quicker) to render graphs for large computations. (A foreign library can be considered for this).
 
-<insert image>
+![Feature 2 (Current)](src/f2_current.jpg "Feature 2 (Current)")
+![Feature 2 (Improved)](src/f2_improved.jpg "Feature 2 (Improved)")
 
 3. To get more meaning from the task graph itself, I will show more metadata (opens up doors for interactivity). I will label "type of the graph", "the input/output characteristics", and "the number of tasks" at block-level and layer-level.
 
