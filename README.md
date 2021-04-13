@@ -4,7 +4,26 @@
   <img Dask width="500" height="500" src="https://docs.dask.org/en/latest/_images/dask_icon.svg">
 </p>
 
-### **Proposal** [**`dask-proposal-freyam.md`**](https://github.com/freyam/dask-gsoc-application/blob/main/dask-proposal-freyam.md)
+## **My Proposal** [**`dask-proposal-freyam.md`**](https://github.com/freyam/dask-gsoc-application/blob/main/dask-proposal-freyam.md)
+
+
+
+<br>
+
+## Visualizing performance characteristics of computations ([link](https://github.com/dask/dask/wiki/GSOC-2021-Project-Ideas))
+
+**Potential Mentors:** [Genevieve Buckley](https://github.com/GenevieveBuckley/) and [Martin Durant](https://github.com/martindurant)
+
+**Description:** Dask users are sometimes caught off guard when they have a computation that works well and then add a new step which results in an overall computation with very different performance characteristics. We'd like to build better visualization tools so that users can more easily identify possible areas of inefficiency in their computations.
+
+**Expected Skills:** A good candidate would be familiar with Python, and have some experience reasoning about Python performance. Experience with HTML and JS graph visualization libraries would be a plus, but not a requirement.
+
+**Relevant community discussion**
+
+* https://github.com/dask/dask/issues/7141
+* https://github.com/dask/dask/issues/7301
+
+
 
 ## Dask Guidelines ([link](https://github.com/dask/dask/wiki/Google-Summer-of-Code-Student-Instructions))
 
