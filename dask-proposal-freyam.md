@@ -29,26 +29,31 @@ Moreover, the output of `.visualize` is often overwhelming, especially for data 
 ### Objective
 Currently, `.visualize` renders a static black-and-white image showing the blocks and their connections. But we can do so much more with some added flavor!
 
-#### Feature 1
+#### Feature 1 (Colored Graphs)
 To help the user make sense of the performance and the scope of optimization, I will **highlight** the **unnecessary tasks** (`cull`) using dark colors or reducing its transparency while rendering. The same can be done with the **redundant constants** (`inline`). **Linear tasks** flow can be labeled/colored similarly, so it becomes easy to spot room for merging these chains (`fuse`). I will also show a side-by-side comparison of the pre-optimization and the post-optimization graphs and highlight the changes. Also, I will color the **I/O tasks differently from the computational tasks** by keeping a list of some commonly used task names (such as `read_csv`). This allows the user to learn more about the program's performance characteristics.
 
 <img align="center" src="/src/f1_current.jpg" alt="Feature 1 (Current)"
-	title="Feature 1 (Current)" width="512" height="447" />
+	title="Feature 1 (Current)" width="400" height="300" />
 
 <img align="center" src="/src/f1_improved.jpg" alt="Feature 1 (Improved)"
-	title="Feature 1 (Improved)" width="512" height="447" />
+	title="Feature 1 (Improved)" width="400" height="300" />
 
-#### Feature 2
-To make visualization of large computations easy and visually appealing, I will introduce **collapsible blocks** that **group giant blocks into smaller blocks**, thus **simplifying the rendered graph** and also makes it easier to work with crucial data containing **a large number of nodes**. Currently, graphviz struggles with large computations. Simplification of the circuit on top of the pre-existing [`dask.optimization`](https://docs.dask.org/en/latest/optimize.html) would make it more feasible (and quicker) to render graphs for large computations. (A foreign library can be considered for this). Besides, to get more meaning from the task graph itself, I will **highlight more metadata** (opens up doors for interactivity). I will label **"type of the graph"**, **"the input/output characteristics"**, and **"the number of tasks"** at **block-level** and **layer-level**.
+
+#### Feature 2 (Collapsible Blocks)
+To make visualization of large computations easy and visually appealing, I will introduce **collapsible blocks** that **group giant blocks into smaller blocks**, thus **simplifying the rendered graph** and also makes it easier to work with crucial data containing **a large number of nodes**. Currently, graphviz struggles with large computations. Simplification of the circuit on top of the pre-existing [`dask.optimization`](https://docs.dask.org/en/latest/optimize.html) would make it more feasible (and quicker) to render graphs for large computations. (A foreign library can be considered for this).
 
 <img align="center" src="/src/f2_current.jpg" alt="Feature 2 (Current)"
-	title="Feature 2 (Current)" width="512" height="245" />
+	title="Feature 2 (Current)" width="400" height="200" />
 
 <img align="center" src="/src/f2_improved.jpg" alt="Feature 2 (Improved)"
-	title="Feature 2 (Improved)" width="512" height="245" />
+	title="Feature 2 (Improved)" width="400" height="200" />
 
+#### Feature 3 (Labelled Metadata)
+To get more meaning from the task graph itself, I will **highlight more metadata** (opens up doors for interactivity). I will label **"type of the graph"**, **"the input/output characteristics"**, and **"the number of tasks"** at **block-level** and **layer-level**.
 
-Rightly pointed out by several developers over at https://github.com/dask/dask/issues/7301, the integration of foreign libraries/extensions like `cytoscape`, `d3-graphviz`, and `ipyelk` can help us here. They bring a whole new level of visualization to our `.visualize` by adding new interactive elements that let the user play around with their task graph and provide a better and more robust analysis of the computation.
+<br>
+
+Rightly pointed out by several developers over at https://github.com/dask/dask/issues/7301, the integration of foreign libraries/extensions like `cytoscape`, `d3-graphviz`, and `ipyelk` can help us here. **They bring a whole new level of visualization to our `.visualize` by adding new interactive elements that let the user play around with their task graph and provide a better and more robust analysis of the computation.**
 
 I will choose one library/extension based on the following factors:
 - The **feasibility of implementing the mentioned features** (keeping in mind the extent of stretch goals).
@@ -164,6 +169,8 @@ I will be active on **Slack/Email/Gitter** between **7:00 AM (3:00 AM UTC) and 1
 ### Week 11 (16th August to 22nd August)
  - Final polishing of demonstration/tutorial & a blog post.
  - **Deliverable: A published Notebook demonstration & a blog post.**
+
+#### **Completiton Date: 23rd August 2021.**
 
 <br>
 
