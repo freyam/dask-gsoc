@@ -40,7 +40,7 @@ To help the user make sense of the performance and the scope of optimization, I 
 
 
 #### Feature 2 (Collapsible Blocks)
-To make visualization of large computations easy and visually appealing, I will introduce **collapsible blocks** that **group giant blocks into smaller blocks**, thus **simplifying the rendered graph** and also makes it easier to work with crucial data containing **a large number of nodes**. Currently, graphviz struggles with large computations. Simplification of the circuit on top of the pre-existing [`dask.optimization`](https://docs.dask.org/en/latest/optimize.html) would make it more feasible (and quicker) to render graphs for large computations. (A foreign library can be considered for this).
+To make visualization of large computations easy and visually appealing, I will introduce **collapsible blocks** that **group smaller blocks into a single large block**, thus **simplifying the rendered graph** and also makes it easier to work with crucial data containing **a large number of nodes**. Currently, graphviz struggles with large computations. Simplification of the circuit on top of the pre-existing [`dask.optimization`](https://docs.dask.org/en/latest/optimize.html) would make it more feasible (and quicker) to render graphs for large computations. (A foreign library can be considered for this).
 
 <img align="center" src="/src/f2_current.jpg" alt="Feature 2 (Current)"
 	title="Feature 2 (Current)" width="400" height="200" />
