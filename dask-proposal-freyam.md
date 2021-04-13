@@ -34,7 +34,7 @@ What I would like to achieve with this project:
 1. To help the user make sense of the performance and the scope of optimization, I will highlight the unnecessary tasks (`cull`) using dark colors or reducing its transparency while rendering. The same can be done with the redundant constants (`inline`). Linear tasks flow can be labeled/colored similarly, so it becomes easy to spot room for merging these chains (`fuse`). I will also show a side-by-side comparison of the pre-optimization and the post-optimization to highlight the changes. Also, I will color the I/O tasks differently from the computational tasks by keeping a list of some commonly used task names (such as `read_csv`). This allows the user to learn more about the program's performance characteristics.
 
 <img align="center" src="/src/f1_current.jpg" alt="Feature 1 (Current)"
-	title="Feature 1 (Current)" width="446" height="333" />
+	title="Feature 1 (Current)" width="512" height="447" />
 
 <img align="center" src="/src/f1_improved.jpg" alt="Feature 1 (Improved)"
 	title="Feature 1 (Improved)" width="512" height="447" />
@@ -42,7 +42,7 @@ What I would like to achieve with this project:
 2. To make visualization of large computations easy and visually appealing, I will introduce collapsible blocks that group giant blocks into smaller blocks, thus simplifying the rendered graph and also makes it easier to work with crucial data containing a large number of nodes. Currently, graphviz struggles with large computations. Simplification of the circuit on top of the pre-existing [`dask.optimization`](https://docs.dask.org/en/latest/optimize.html) would make it more feasible (and quicker) to render graphs for large computations. (A foreign library can be considered for this).
 
 <img align="center" src="/src/f2_current.jpg" alt="Feature 2 (Current)"
-	title="Feature 2 (Current)" width="494" height="262" />
+	title="Feature 2 (Current)" width="512" height="245" />
 
 <img align="center" src="/src/f2_improved.jpg" alt="Feature 2 (Improved)"
 	title="Feature 2 (Improved)" width="512" height="245" />
