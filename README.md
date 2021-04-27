@@ -6,8 +6,6 @@
 
 ## **My Proposal** [**`dask-proposal-freyam.md`**](https://github.com/freyam/dask-gsoc-application/blob/main/dask-proposal-freyam.md)
 
-
-
 <br>
 
 ## Visualizing performance characteristics of computations ([link](https://github.com/dask/dask/wiki/GSOC-2021-Project-Ideas))
@@ -22,6 +20,14 @@
 
 * https://github.com/dask/dask/issues/7141
 * https://github.com/dask/dask/issues/7301
+
+## Abstract
+
+One of Dask's primary functions is to construct task graphs and optimize them before decorating the functions to operate lazily. By looking at the **interconnectedness of tasks**, one can learn more about potential bottlenecks where parallelism may or may not be possible to apply to simplify the task graph further.
+
+Dask currently uses `graphviz` to render a task graph. The `.visualize` method and the `dask.visualize` functions are simple and effective. They generate a static black-and-white image showing the blocks and their connections. However, the task graph struggles to work with complex computations and doesn't give a clear idea about the feasibility of the tasks. There's a scope of improvement here.
+
+I plan to **color code the graph and highlight the room for optimization** (`dask.optimization`). This allows the user to learn more about the program's performance characteristics and distinguish how the computation fares at a higher complexity. I also plan to introduce **collapsible blocks that group smaller blocks into a single large block**. This simplifies the rendered graph, especially when the crucial data contains a large number of nodes.
 
 
 

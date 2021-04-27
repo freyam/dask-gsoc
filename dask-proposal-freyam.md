@@ -260,12 +260,3 @@ I am a curiosity-driven learner. All the programming knowledge I have gained so 
 **One of the reasons I have been active in Dask is the immensely constructive community, and I will keep myself updated with other developments. The community was very helpful in getting me started with the development tasks.**
 
 More than anything, **I find this project super fun to work with**. This project is inspiring to me because it will give me exposure to Dask's codebase, learn new topics every day and increase my understanding of the inner workings of Python and, specifically, how great visualization can be so crucial.
-
-
-## Abstract
-
-One of Dask's primary functions is to construct task graphs and optimize them before decorating the functions to operate lazily. By looking at the **interconnectedness of tasks**, one can learn more about potential bottlenecks where parallelism may or may not be possible to apply to simplify the task graph further.
-
-Dask currently uses `graphviz` to render a task graph. The `.visualize` method and the `dask.visualize` functions are simple and effective. They generate a static black-and-white image showing the blocks and their connections. However, the task graph struggles to work with complex computations and doesn't give a clear idea about the feasibility of the tasks. There's a scope of improvement here.
-
-I plan to **color code the graph and highlight the room for optimization** (`dask.optimization`). This allows the user to learn more about the program's performance characteristics and distinguish how the computation fares at a higher complexity. I also plan to introduce **collapsible blocks that group smaller blocks into a single large block**. This simplifies the rendered graph, especially when the crucial data contains a large number of nodes.
