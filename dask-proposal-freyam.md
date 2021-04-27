@@ -247,7 +247,7 @@ I have enjoyed immensely working on Dask, and **I continue to be intrigued by th
 
 I have been using GitHub for maintaining all my projects for over a year now. I have worked on my college clubs' projects on GitHub, and I am confident about the version control workflow in large codebases.
 
-I have engaged in Open Source institutions previously too. I was intrigued by the concept for a long time and started from my school days. **Open Source contributions have made me realize the importance of a well-documented and easy-to-understand code.** I have participated in 2 editions of Google Code-in (precursor to GSOC) in 2018 and 2019 and have contributed documentation and designs to well known organizations like [OpenMRS](https://openmrs.org/), [LibreHealth](https://librehealth.io/), [RTEMS](https://www.rtems.org/) and [CCExtractor](https://www.ccextractor.org/). I have also taken part in the Hacktoberfest 2021 and am an active member of the OSDG@IIIT-H club, and have conducted Open Source Workshops in my college.
+I have engaged in Open Source institutions previously too. I was intrigued by the concept for a long time and started from my school days. **Open Source contributions have made me realize the importance of a well-documented and easy-to-understand code.** I have participated in 2 editions of Google Code-in (precursor to GSOC) in 2018 and 2019 and have contributed documentation and designs to well known organizations like [OpenMRS](https://openmrs.org/), [LibreHealth](https://librehealth.io/), [RTEMS](https://www.rtems.org/) and [CCExtractor](https://www.ccextractor.org/). I have also taken part in the Hacktoberfest 2020 and am an active member of the OSDG@IIIT-H club, and have conducted Open Source Workshops in my college.
 
 <br>
 
