@@ -72,4 +72,4 @@ I plan to **color code the graph and highlight the room for optimization** (`das
 - [x] Did you add a link to ALL your application files to a cloud hoster like GitHub or Dropbox? (easy points! wink)
 - [x] Be honest! Only universal Karma points.
 - [x] Did you create a pull request on the existing code?
-- [ ] Did you continue communication until accepted students are announced?
+- [x] Did you continue communication until accepted students are announced?
