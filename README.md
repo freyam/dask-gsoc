@@ -1,4 +1,4 @@
-# My GSoC Application for Dask
+# My Accepted GSoC Application for Dask
 
 <p align="center">
   <img Dask width="500" height="500" src="https://docs.dask.org/en/latest/_images/dask_icon.svg">
